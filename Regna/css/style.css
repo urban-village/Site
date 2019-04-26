@@ -772,7 +772,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item .details {
   height: 50px;
-  background: #2dc997;
+  background: #7ab3ef;
   position: absolute;
   width: 100%;
   height: 50px;
@@ -846,7 +846,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social a:hover {
-  color: #2dc997;
+  color: #7ab3ef;
 }
 
 #team .member .social i {
@@ -872,7 +872,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #2dc997;
+  color: #7ab3ef;
   float: left;
 }
 
@@ -949,7 +949,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #2dc997;
+  background: #7ab3ef;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -957,7 +957,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #51d8ad;
+  background: #bedaf7;
 }
 
 /*--------------------------------------------------------------
