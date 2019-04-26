@@ -639,7 +639,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box:hover .icon {
   background: #fff;
-  border: 2px solid #2dc997;
+  border: 2px solid #7ab3ef;
 }
 
 #services .box:hover .icon i {
@@ -708,8 +708,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: #7ab3ef;
+  border: 2px solid #7ab3ef;
 }
 
 /* Portfolio Section
