@@ -8,7 +8,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #1666ba;
+  background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  background: #1666ba;
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
