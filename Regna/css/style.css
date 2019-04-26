@@ -643,11 +643,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box:hover .icon i {
-  color: #2dc997;
+  color: #7ab3ef;
 }
 
 #services .box:hover .icon a {
-  color: #2dc997;
+  color: #7ab3ef;
 }
 
 #services .title {
@@ -906,7 +906,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .social-links a:hover {
-  background: #2dc997;
+  background: #7ab3ef;
   color: #fff;
 }
 
