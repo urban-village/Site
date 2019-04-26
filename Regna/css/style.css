@@ -547,11 +547,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #2dc997;
+  border: 2px solid #7ab3ef;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #2dc997;
+  color: #7ab3ef;
   font-size: 24px;
 }
 
