@@ -207,7 +207,7 @@ h4{
 }
 
 #hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
+  font-family: "Exo", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -222,8 +222,8 @@ h4{
 }
 
 #hero .btn-get-started:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: #7ab3ef;
+  border: 2px solid #deecfb;
 }
 
 /*--------------------------------------------------------------
@@ -963,6 +963,137 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
   background: #bedaf7;
+}
+
+#donate {
+  background: #f6f6f6;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#donate .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  position: relative;
+  background: #fafafa;
+}
+
+#donate .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #7ab3ef;
+}
+
+#donate .icon a {
+  display: inline-block;
+}
+
+#donate .icon i {
+  color: #f6f6f6;
+  font-size: 24px;
+}
+
+
+}
+
+#donate .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#donate .title a {
+  color: #111;
+}
+
+#donate .description {
+  font-size: 14px;
+  line-height: 24px;
+}
+#help {
+  background: #f6f6f6;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#help .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  position: relative;
+  background: #fafafa;
+}
+
+#help .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #7ab3ef;
+}
+
+#help .icon a {
+  display: inline-block;
+}
+
+#help .icon i {
+  color: #f6f6f6;
+  font-size: 24px;
+}
+
+#help .box:hover .icon {
+  background: #fff;
+  border: 2px solid #7ab3ef;
+}
+
+#help .box:hover .icon i {
+  color: #7ab3ef;
+}
+
+#help .box:hover .icon a {
+  color: #7ab3ef;
+}
+
+#help .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#help .title a {
+  color: #111;
+}
+
+#help .description {
+  font-size: 14px;
+  line-height: 24px;
 }
 
 /*--------------------------------------------------------------
