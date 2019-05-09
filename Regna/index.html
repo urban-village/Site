@@ -535,9 +535,9 @@
 
           <div class="col-lg-5 col-md-8">
             <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              
+              <form action="/formmail.php" method="post" role="form" class="contactForm">
+                <input type="hidden" name="recipients" value="Jtf83834@bethel.edu"/>
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>
@@ -555,10 +555,9 @@
                   <div class="validation"></div>
                 </div>
                 <div class="text-center"><button type="submit">Send Message</button></div>
-<<<<<<< HEAD
-=======
-                <input type="hidden" name="recipients" value="Jtf83834@bethel.edu" />
->>>>>>> 09375c37ee84761dfea4bd429ef8131bfc791c84
+                
+                
+
               </form>
             </div>
           </div>
@@ -617,3 +616,5 @@
 
 </body>
 </html>
+<div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
