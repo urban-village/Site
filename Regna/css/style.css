@@ -1180,6 +1180,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+
 }
 
 #contact .form button[type="submit"] {
@@ -1192,6 +1193,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
   background: #bedaf7;
+
+}
+
 }
 
 #donate {
