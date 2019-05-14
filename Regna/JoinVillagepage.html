@@ -13,6 +13,8 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet'>
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -80,10 +82,12 @@
     Hero Section
   ============================-->
   <section id="hero">
-    <div class="hero-container">
-      <h1>Join our Village</h1>
-      <h2>Be part of a large community that celebrates the culture of the KaRen people.</h2>
-      <a href="#about" class="btn-get-started">Get Started</a>
+    <div class="overlay">
+      <video autoplay muted loop id="myVideo">
+        <source src="img/BackgroundVideo.mp4" type ="video/mp4">
+        </video>      
+       <h1>Join our Village</h1>
+      <p>Be part of a large community that celebrates the culture of the KaRen people.</p>
     </div>
   </section><!-- #hero -->
 
@@ -124,6 +128,19 @@
 
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
         </div>
+        <!-- Trigger/Open The Modal -->
+<button class="myModal" class="ModalBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div class="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <p>Some text in the Modal..</p>
+    <span class="close">&times;</span>
+  </div>
+
+</div>
 
       </div>
     </section><!-- #about -->
