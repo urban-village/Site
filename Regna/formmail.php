@@ -436,13 +436,13 @@ if (isset($aServerVars['SERVER_NAME']) && $aServerVars['SERVER_NAME'] !== "") {
  *****************************************************************************/
 
 /* Help: http://www.tectite.com/fmdoc/email_name.php */
-$EMAIL_NAME = "^[-a-z0-9._]+"; /* the '^' is an important security feature! */
+$EMAIL_NAME = ("^[-a-z0-9._]+"; /* the '^' is an important security feature! */
 
 /* Help: http://www.tectite.com/fmdoc/target_email.php */
-$TARGET_EMAIL = array(urbanvillage.mn"@gmail\.com$");
+$TARGET_EMAIL = array("^jtf83834@bethel\.edu$");
 
 /* Help: http://www.tectite.com/fmdoc/def_alert.php */
-$DEF_ALERT = "urbanvillage.mn@gmail.com";
+$DEF_ALERT = "jtf83834@bethel.edu";
 
 /* Help: http://www.tectite.com/fmdoc/site_domain.php */
 $SITE_DOMAIN = ""; /* your website domain name */
