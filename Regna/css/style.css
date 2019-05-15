@@ -610,7 +610,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
+<<<<<<< HEAD
   background: url(../img/motherandchild.jpg) center top no-repeat;
+=======
+  background: url(../img/about-img.jpg) center top no-repeat;
+>>>>>>> parent of 77b3fbe... l
   margin-bottom: 10px;
 }
 
