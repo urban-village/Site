@@ -612,7 +612,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .backgroundjoinvillage {
   min-height: 300px;
-  background: url(../img/Jesse.jpg) right no-repeat;
+  background: url(../img/Jesse.jpg) center top no-repeat;
   margin-bottom: 10px;
 }
 
