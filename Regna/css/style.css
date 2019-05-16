@@ -232,11 +232,7 @@ h4{
 #hero {
   width: 100%;
   height: 100vh;
-<<<<<<< HEAD
   background: url(../img/hero-bg.jpg) top center;
-=======
-  background: url(../img/BackgroundVideo.mp4)top center;
->>>>>>> f7cdf6156ad1a7c8197658f47d45fbaa939b56f5
   background-size: cover;
   position: relative;
 }
@@ -610,11 +606,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-<<<<<<< HEAD
   background: url(../img/motherandchild.jpg) center top no-repeat;
-=======
-  background: url(../img/about-img.jpg) center top no-repeat;
->>>>>>> parent of 77b3fbe... l
   margin-bottom: 10px;
 }
 
@@ -1229,7 +1221,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
-<<<<<<< HEAD
 .portfolio-modal {
   padding-right: 0px !important;
 }
@@ -1308,53 +1299,4 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   background-color: #212529;
-=======
-
-/*--------------------------------------------------------------
-# Rotater Slide
---------------------------------------------------------------*/
-
-.rotating-slider ul.slides li { color: #fff }
-
-.rotating-slider ul.slides li:nth-of-type(1) { background: #3498db; }
-
-.rotating-slider ul.slides li:nth-of-type(2) { background: url('http://static.pexels.com/wp-content/uploads/2014/05/car-oldtimer-snow-342-825x550.jpg'); }
-
-.rotating-slider ul.slides li:nth-of-type(3) { background: #e74c3c; }
-
-.rotating-slider ul.slides li:nth-of-type(4) { background: url('http://static.pexels.com/wp-content/uploads/2014/06/analog-camera-old-olympus-om-10-1528-825x550.jpg'); }
-
-.rotating-slider ul.slides li:nth-of-type(5) { background: #f1c40f; }
-
-.rotating-slider ul.slides li:nth-of-type(6) { background: url(http://static.pexels.com/wp-content/uploads/2014/06/bridge-city-night-645-827x550.jpg); }
-
-.rotating-slider ul.slides li .inner {
-  box-sizing: border-box;
-  padding: 2em;
-  height: 100%;
-  width: 100%;
->>>>>>> f7cdf6156ad1a7c8197658f47d45fbaa939b56f5
-}
-.rotatingSlider{
-    // auto play
-    autoRotate: true,
-
-    // auto play interval
-    autoRotateInterval: 6000,
-
-    // is draggable?
-    draggable: true,
-
-    // slider controls
-    directionControls: true,
-    directionLeftText: '&lsaquo;',
-    directionRightText: '&rsaquo;',
-
-    // animation speed
-    rotationSpeed: 750,
-
-    // size of slider
-    slideHeight : 360,
-    slideWidth : 480,
-    
 }

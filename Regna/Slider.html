@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slider</title>
+	<link rel="stylesheet" type="text/css" href="css/carousel.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+<script>
+$(function() { 
+ var carousel = $(".carousel"),
+    currdeg  = 0;
+$(".next").on("click", { d: "n" }, rotate);
+$(".prev").on("click", { d: "p" }, rotate);
+ 
+function rotate(e){
+  if(e.data.d=="n"){
+    currdeg = currdeg - 60;
+  }
+  if(e.data.d=="p"){
+    currdeg = currdeg + 60;
+  }
+  carousel.css({
+    "-webkit-transform": "rotateY("+currdeg+"deg)",
+    "-moz-transform": "rotateY("+currdeg+"deg)",
+    "-o-transform": "rotateY("+currdeg+"deg)",
+    "transform": "rotateY("+currdeg+"deg)"
+  });
+}
+});
+</script>
+</head>
+<body>
+
+
+<div class="container">
+  <div class="carousel">
+    <div class="item a"><img class="a_photo" src="img/Luke.jpg"></div>
+    <div class="item b">B</div>
+    <div class="item c">C</div>
+    <div class="item d">D</div>
+    <div class="item e">E</div>
+    <div class="item f">F</div>
+  </div>
+</div>
+<div class="next">Next</div>
+<div class="prev">Prev</div>
+</body>
+</html>
