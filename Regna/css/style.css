@@ -1221,6 +1221,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+/*---------------------------------------
+Modal Stuff
+---------------------------------------*/
+
 .portfolio-modal {
   padding-right: 0px !important;
 }
