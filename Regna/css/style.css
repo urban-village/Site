@@ -150,7 +150,7 @@ h4{
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #index-hero {
     background-attachment: fixed;
   }
 }
@@ -227,7 +227,7 @@ h4{
   background: #7ab3ef;
   border: 2px solid #deecfb;
 }
-
+/*seperate hero section*/
 
 #hero {
   width: 100%;
@@ -606,7 +606,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/motherandchild.jpg) center top no-repeat;
+  background: url(../img/MotherandChild.jpg) center top no-repeat;
+  margin-bottom: 10px;
+}
+
+#about .about-container .backgroundjoinvillage {
+  min-height: 300px;
+  background: url(../img/Jesse.jpg) right no-repeat;
   margin-bottom: 10px;
 }
 
