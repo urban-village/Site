@@ -144,13 +144,13 @@ h4{
 #index-hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/croppedhomeworkcloseup.jpg)top center;
+  background: url(../img/hero-bg.jpg)top center;
   background-size: cover;
   position: relative;
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #index-hero {
     background-attachment: fixed;
   }
 }
@@ -227,7 +227,7 @@ h4{
   background: #7ab3ef;
   border: 2px solid #deecfb;
 }
-
+/*seperate hero section*/
 
 #hero {
   width: 100%;
@@ -323,6 +323,7 @@ h4{
   min-width: 100%;
   height: 100vh;
 }
+
 
 
 /*--------------------------------------------------------------
@@ -606,7 +607,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/motherandchild.jpg) center top no-repeat;
+  background: url(../img/MotherandChild.jpg) center top no-repeat;
+  margin-bottom: 10px;
+}
+
+#about .about-container .backgroundjoinvillage {
+  min-height: 300px;
+  background: url(../img/Jesse.jpg) center top no-repeat;
   margin-bottom: 10px;
 }
 
@@ -1066,13 +1073,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 
-}
-
 #donate {
-  background: #f6f6f6;
-  background-size: cover;
+  background: #f1f1f1;
   padding: 80px 0 60px 0;
 }
+
+
 
 #donate .box {
   padding: 50px 20px;
@@ -1221,6 +1227,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+/*---------------------------------------
+Modal Stuff
+---------------------------------------*/
+
 .portfolio-modal {
   padding-right: 0px !important;
 }

@@ -8,11 +8,17 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/Karenlogo.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
+<link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16 (1)/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16 (1)/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16 (1)/favicon-16x16.png">
+<link rel="manifest" href="favicon_package_v0.16 (1)/site.webmanifest">
+<link rel="mask-icon" href="favicon_package_v0.16 (1)/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet'>
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -37,6 +43,7 @@
   <!--==========================
   Header
   ============================-->
+
   <header id="header">
     <div class="container">
 
@@ -46,21 +53,23 @@
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
 
+    
+</head>
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
+          <li class="menu-active"><a href="#hero">Home</a></li>
           <li><a href="#about">Our Village</a></li>
           <li><a href="#services">Village Programs</a>
                 <ul>
-                  <li><a href="#">Calendar</a></li>
-                  <li><a href="#">F.A.M.(Family Academy Model)</a></li>
-                  <li><a href="#">Karen History Exhibit</a></li>
-                  <li><a href="#">Community Partnerships</a></li>
+                  <li><a href="calendar.html">Calendar</a></li>
+                  <li><a href="fam.html">F.A.M.(Family Academy Model)</a></li>
+                  <li><a href="KarenHistoryExhibit.html">Karen History Exhibit</a></li>
+                  <li><a href="communityPartnerships.html">Community Partnerships</a></li>
                 </ul>
           </li>
-          <li><a href="#call-to-action">Join Our Village</a></li>
+          <li><a href="#JoinVillagePage">Join Our Village</a></li>
           <li><a href="#portfolio">Village Media</a></li>
-          <li class="menu-active"><a href="index.html#help">Donate</a>
+          <li><a href="index.html#help">Donate</a>
                 <ul>
                   <li><a href="donation.html">Donation</a></li>
                   <li><a href="merch.html">Merchendise</a></li>
@@ -79,12 +88,9 @@
   ============================-->
   <section id="hero">
     <div class="hero-container">
-      <h1>Volunteer Work</h1>
-      <h2>A group of people working together for the betterment of a community</h2>
-      <a data-toggle="modal" href="#portfolioModal1" class="btn-get-started">Jump in</a>
       <h1>Join our Village</h1>
       <h2>Be part of a large community that celebrates the culture of the KaRen people.</h2>
-      <a href="#about" class="btn-get-started">Get Started</a>
+      <a href="#call-to-action" class="btn-get-started">Get Started</a>
     </div>
   </section><!-- #hero -->
 
@@ -110,14 +116,14 @@
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h4 class="title"><a href="">Community Center</a></h4>
+              <p class="description">At the Community Center, we put on as many events as we can, everything from showcasing art to having games and activities.</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <h4 class="title"><a href="">Passage of stories</a></h4>
+              <p class="description">One of the important parts of the community that we strive for is the art of storytelling. Passing on a legacy and creating experiences that is fun to be part of is something we cherish.</p>
             </div>
 
           </div>
@@ -133,51 +139,37 @@
     <section id="services">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title">Services</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 class="section-title">Village Programs</h3>
+          <h4 class="section-description">If you want to work with us, but don't know the way we roll, these are some events you can take part in and see how we operate. <br> </h4>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-3 col-6 text-center wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <div class="icon"><a href="calendar.html"><i class="fa fa-calendar"></i></a></div>
+              <h4 class="title"><a href="calendar.html">Calendar</a></h4>
+              <p class="description">Description
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+          <div class="col-lg-3 col-6 text-center wow fadeInUp" data-wow-delay="0.4s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <div class="icon"><a href=""><i class="fa fa-pencil"></i></a></div>
+              <h4 class="title"><a href="">F.A.M.(Family Academy Model)</a></h4>
+              <p class="description">Description
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+          <div class="col-lg-3 col-6 text-center wow fadeInUp" data-wow-delay="0.6s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-paper-plane"></i></a></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
+              <div class="icon"><a href=""><i class="fa fa-building"></i></a></div>
+              <h4 class="title"><a href="">Karen History Exhibit</a></h4>
+              <p class="description">Description            </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-3 col-6 text-center wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-road"></i></a></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-            <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-shopping-bag"></i></a></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <div class="icon"><a href=""><i class="fa fa-group"></i></a></div>
+              <h4 class="title"><a href="">Community Partnerships</a></h4>
+              <p class="description">Description
+         
             </div>
           </div>
         </div>
@@ -350,156 +342,6 @@
 
       </div>
     </section><!-- #portfolio -->
-
-    <!--==========================
-      Team Section
-    ============================-->
-    <section id="team">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h3 class="section-title">Team</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-1.jpg" alt=""></div>
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-2.jpg" alt=""></div>
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-3.jpg" alt=""></div>
-              <h4>William Anderson</h4>
-              <span>CTO</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-4.jpg" alt=""></div>
-              <h4>Amanda Jepson</h4>
-              <span>Accountant</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #team -->
-
-    <!--==========================
-      Contact Section
-    ============================-->
-    <section id="contact">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h3 class="section-title">Contact</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-      </div>
-
-      <!-- Uncomment below if you wan to use dynamic maps -->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-      <div class="container wow fadeInUp mt-5">
-        <div class="row justify-content-center">
-
-          <div class="col-lg-3 col-md-4">
-
-            <div class="info">
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
-              </div>
-
-              <div>
-                <i class="fa fa-envelope"></i>
-                <p>info@example.com</p>
-              </div>
-
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>+1 5589 55488 55s</p>
-              </div>
-            </div>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
-
-          </div>
-
-          <div class="col-lg-5 col-md-8">
-            <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #contact -->
-
-  </main>
-
   <!--==========================
     Footer
   ============================-->
