@@ -37,34 +37,6 @@
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
   ======================================================= -->
-
-  <!--Caraousel Script-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
-      <script>
-      $(function() { 
-       var carousel = $(".carousel"),
-          currdeg  = 0;
-      $(".next").on("click", { d: "n" }, rotate);
-      $(".prev").on("click", { d: "p" }, rotate);
-       
-      function rotate(e){
-        if(e.data.d=="n"){
-          currdeg = currdeg - 60;
-        }
-        if(e.data.d=="p"){
-          currdeg = currdeg + 60;
-        }
-        carousel.css({
-          "-webkit-transform": "rotateY("+currdeg+"deg)",
-          "-moz-transform": "rotateY("+currdeg+"deg)",
-          "-o-transform": "rotateY("+currdeg+"deg)",
-          "transform": "rotateY("+currdeg+"deg)"
-        });
-      }
-      });
-      </script>
-
-
 </head>
 
 <body>
@@ -77,7 +49,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img alt="KaRen Logo" src="img/Karenlogo.png" alt="" title="" /></img></a>
+        <a href="#hero"><img src="img/Karenlogo.png" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
@@ -140,22 +112,25 @@
             </p>
 
             <div class="icon-box wow fadeInUp">
-              <div class="icon"><a href="fam.html"><i class="fa fa-pencil"></i></a></div>
+              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
               <h4 class="title"><a href="">Mission Statement</a></h4>
-              <p class="description">Connection, Collaboration, Kinship</p>
+              <p class="description">Connection, Collaboration, Kinship
+</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><a href="communityPartnerships.html"><i class="fa fa-group"></i></a></div>
+              <div class="icon"><i class="fa fa-photo"></i></div>
+
               <h4 class="title"><a href="">Core Values</a></h4>
               <p class="description">Kinship, Mutual learning, Inclusion, For us by us, Resilience, Solidarity.</p>
 
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><a href="KarenHistoryExhibit.html"><i class="fa fa-building"></i></a></div>
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">History </a></h4>
               <p class="description">From watering holes to watering seeds.</p>
+
 
               <h4 class="title"><a href=""></a></h4>
               <p class="description"></p>
@@ -176,23 +151,28 @@
       <div class="container wow fadeIn">
         <div class="section-header">
           <h3 class="section-title">Facts</h3>
-          <p class="section-description">A representation of who we are through numbers.</p>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
         <div class="row counters">
 
-  				<div class="col-lg-4 col-6 text-center">
-            <span data-toggle="counter-up">7</span>
-            <p>Values</p>
+  				<div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">232</span>
+            <p>Clients</p>
   				</div>
 
-          <div class="col-lg-4 col-6 text-center">
-            <span data-toggle="counter-up">3</span>
-            <p>Initiators</p>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">521</span>
+            <p>Projects</p>
   				</div>
 
-          <div class="col-lg-4 col-6 text-center">
-            <span data-toggle="counter-up">7</span>
-            <p>Partnership Programs</p>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,463</span>
+            <p>Hours Of Support</p>
+  				</div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">15</span>
+            <p>Hard Workers</p>
   				</div>
 
   			</div>
@@ -213,30 +193,29 @@
           <div class="col-lg-3 col-6 text-center wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
               <div class="icon"><a href="calendar.html"><i class="fa fa-calendar"></i></a></div>
-              <h4 class="title"><a href="">Calendar</a></h4>
-              <p class="description">Details about important events held at the community center</p>
+              <h4 class="title"><a href="calendar.html">Calendar</a></h4>
+              <p class="description">Description
             </div>
           </div>
           <div class="col-lg-3 col-6 text-center wow fadeInUp" data-wow-delay="0.4s">
             <div class="box">
-              <div class="icon"><a href="fam.html"><i class="fa fa-pencil"></i></a></div>
-              <h4 class="title"><a href="">F.A.M.<br>(Family Academy Model)</a></h4>
-              <p class="description">Our cohort model program designed to enhance home-to-classroom engagement</p>
+              <div class="icon"><a href=""><i class="fa fa-pencil"></i></a></div>
+              <h4 class="title"><a href="">F.A.M.(Family Academy Model)</a></h4>
+              <p class="description">Description
             </div>
           </div>
           <div class="col-lg-3 col-6 text-center wow fadeInUp" data-wow-delay="0.6s">
             <div class="box">
-              <div class="icon"><a href="KarenHistoryExhibit.html"><i class="fa fa-building"></i></a></div>
+              <div class="icon"><a href=""><i class="fa fa-building"></i></a></div>
               <h4 class="title"><a href="">Karen History Exhibit</a></h4>
-              <p class="description">A place for people to learn about the history and culture of the Karen people</p>
+              <p class="description">Description            </div>
           </div>
-        </div>
+
           <div class="col-lg-3 col-6 text-center wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <div class="icon"><a href="communityPartnerships.html"><i class="fa fa-group"></i></a></div>
+              <div class="icon"><a href=""><i class="fa fa-group"></i></a></div>
               <h4 class="title"><a href="">Community Partnerships</a></h4>
-              <p class="description">Our community programs and other Karen community programs</p>
-            </div>
+              <p class="description">Description
          
             </div>
           </div>
@@ -269,24 +248,147 @@
 
 
     <section id="portfolio">
-      <div class="container-carousel">
+      <div class="container wow fadeInUp">
         <div class="section-header">
           <h3 class="section-title">Village Media</h3>
           <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
         <div class="row">
-            <div class="carousel">
-            <div class="item a"><img class="a_photo" src="img/reflection.jpg"></div>
-            <div class="item b"><img class="a_photo" src="img/3women.jpg"></div>
-            <div class="item c"><img class="a_photo" src="img/karenleader.jpg"></div>
-            <div class="item d"><img class="a_photo" src="img/steeple.jpg"></div>
-            <div class="item e"><img class="a_photo" src="img/sunset.jpg"></div>
-            <div class="item f"><img class="a_photo" src="img/dancerdrawing.jpg"></div>
-            </div>
+
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-logo">Logo</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" id="portfolio-wrapper">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/portfolio/app1.jpg" alt="">
+              <div class="details">
+                <h4>App 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/portfolio/web2.jpg" alt="">
+              <div class="details">
+                <h4>Web 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/portfolio/app3.jpg" alt="">
+              <div class="details">
+                <h4>App 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/portfolio/card1.jpg" alt="">
+              <div class="details">
+                <h4>Card 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/portfolio/card2.jpg" alt="">
+              <div class="details">
+                <h4>Card 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/portfolio/web3.jpg" alt="">
+              <div class="details">
+                <h4>Web 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/portfolio/card3.jpg" alt="">
+              <div class="details">
+                <h4>Card 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/portfolio/app2.jpg" alt="">
+              <div class="details">
+                <h4>App 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/portfolio/logo1.jpg" alt="">
+              <div class="details">
+                <h4>Logo 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/portfolio/logo3.jpg" alt="">
+              <div class="details">
+                <h4>Logo 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/portfolio/web1.jpg" alt="">
+              <div class="details">
+                <h4>Web 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/portfolio/logo2.jpg" alt="">
+              <div class="details">
+                <h4>Logo 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
         </div>
       </div>
-        <div class="next">Next</div>
-        <div class="prev">Prev</div>
     </section><!-- #portfolio -->
 
     <!--==========================
