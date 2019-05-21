@@ -18,7 +18,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #7ab3ef;
+  color: #aa1e1e;
   outline: none;
   text-decoration: none;
 }
@@ -131,7 +131,7 @@ h4{
 }
 
 #header.header-fixed {
-  background: #1666ba;
+  background: #aa1e1e;
   padding: 0px 0;
   height: 72px;
   transition: all 0.5s;
@@ -459,7 +459,7 @@ h4{
 }
 
 .nav-menu ul li a:hover {
-  background: #7ab3ef;
+  background: #aa1e1e;
   color: #fff;
 }
 
