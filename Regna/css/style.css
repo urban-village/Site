@@ -915,7 +915,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
+  width:100%;
+  height: auto;
 }
 
 #team .member .pic img {
