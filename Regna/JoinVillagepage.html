@@ -188,12 +188,89 @@
             <p class="cta-text">If you see yourself helping this community, it is an easy process of sending us your name, email or phone number, and a time to meet up. We would love to meet you and share an exciting experience with you.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#contact">Call To Action</a>
           </div>
         </div>
 
       </div>
     </section><!-- #call-to-action -->
+
+    <section id="contact">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Contact</h3>
+          <h4 class="section-description">Please contact us if you are driven to contribute to the community</h4>
+        </div>
+      </div>
+
+      <div class="container wow fadeInUp mt-5">
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-4">
+           <div class="info">
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p><a href="https://www.google.com/maps/place/1082+Arcade+St,+St+Paul,+MN+55106/@44.974043,-93.0662647,173m/data=!3m2!1e3!4b1!4m8!1m2!2m1!1sMagnolia+Avenue+East,+Saint+Paul,+MN!3m4!1s0x52b2d52395bd3eb7:0x51563e705a75250c!8m2!3d44.974043!4d-93.0657175">1082 Arcade Street Floor 1<br>St. Paul MN, 55106 </a></p>
+              </div>
+
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p>
+                  <a href="mailto:urbanvillage.mn@gmail.com">urbanvillage.mn@gmail.com</a></p>
+              </div>
+
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>
+                  <a href="tel:612-987-3203">612-987-3203</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              
+              <a href="https://www.facebook.com/UrbanVillageMN/" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/urbanvillage.mn/" class="instagram"><i class="fa fa-instagram"></i></a>
+              
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              
+              <form action="/formmail.php" method="post" role="form" class="contactForm">
+                <input type="hidden" name="recipients" value="urbanvillage.mn@gmail.com"/>
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+                
+                
+
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
 
   <!--==========================
     Footer
