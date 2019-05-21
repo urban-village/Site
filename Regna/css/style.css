@@ -224,7 +224,7 @@ h4{
 }
 
 #index-hero .btn-get-started:hover {
-  background: #7ab3ef;
+  background: #0d3259;
   border: 2px solid #deecfb;
 }
 /*seperate hero section*/
@@ -312,7 +312,7 @@ h4{
 }
 
 #hero .btn-get-started:hover {
-  background: #7ab3ef;
+  background: #0d3259;
   border: 2px solid #deecfb;
 }
 
@@ -658,11 +658,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #7ab3ef;
+  border: 2px solid #0d3259;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #7ab3ef;
+  color: #0d3259;
   font-size: 24px;
 }
 
@@ -717,7 +717,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #7ab3ef;
+  background: #0d3259;
 }
 
 #services .icon a {
@@ -731,15 +731,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box:hover .icon {
   background: #fff;
-  border: 2px solid #7ab3ef;
+  border: 2px solid #0d3259;
 }
 
 #services .box:hover .icon i {
-  color: #7ab3ef;
+  color: #0d3259;
 }
 
 #services .box:hover .icon a {
-  color: #7ab3ef;
+  color: #0d3259;
 }
 
 #services .title {
@@ -800,8 +800,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #7ab3ef;
-  border: 2px solid #7ab3ef;
+  background: #0d3259;
+  border: 2px solid #0d3259;
 }
 
 /* Portfolio Section
@@ -942,7 +942,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social a:hover {
-  color: #7ab3ef;
+  color: #0d3259;
 }
 
 #team .member .social i {
@@ -968,7 +968,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #7ab3ef;
+  color: #0d3259;
   float: left;
 }
 
@@ -1002,7 +1002,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .social-links a:hover {
-  background: #7ab3ef;
+  background: #0d3259;
   color: #fff;
 }
 
@@ -1046,7 +1046,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #7ab3ef;
+  background: #0d3259;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1089,7 +1089,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #7ab3ef;
+  background: #0d3259;
 }
 
 #donate .icon a {
@@ -1149,7 +1149,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #7ab3ef;
+  background: #0d3259;
 }
 
 #help .icon a {
@@ -1163,15 +1163,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #help .box:hover .icon {
   background: #fff;
-  border: 2px solid #7ab3ef;
+  border: 2px solid #0d3259;
 }
 
 #help .box:hover .icon i {
-  color: #7ab3ef;
+  color: #0d3259;
 }
 
 #help .box:hover .icon a {
-  color: #7ab3ef;
+  color: #0d3259;
 }
 
 #help .title {
