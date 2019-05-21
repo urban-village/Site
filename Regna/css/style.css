@@ -761,7 +761,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/eagle.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/join.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -846,32 +846,33 @@ body.mobile-nav-active #mobile-nav-toggle {
  
 .a {
   transform: rotateY(0deg) translateZ(250px);
+  background: #0d3259;
 }
 
 .a_photo{
   width:100%;
-  height:auto;
+  height:100%;
 }
 
 .b {
   transform: rotateY(60deg) translateZ(250px);
-  background: #0072bc;
+  background: #0d3259;
 }
 .c {
   transform: rotateY(120deg) translateZ(250px);
-  background: #39b54a;
+  background: #0d3259;
 }
 .d {
   transform: rotateY(180deg) translateZ(250px);
-  background: #f26522;
+  background: #0d3259;
 }
 .e {
   transform: rotateY(240deg) translateZ(250px);
-  background: #630460;
+  background: #0d3259;
 } 
 .f {
   transform: rotateY(300deg) translateZ(250px);
-  background: #8c6239;
+  background: #0d3259;
 }
  
 .next, .prev {
