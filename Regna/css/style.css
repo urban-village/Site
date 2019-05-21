@@ -408,21 +408,23 @@ h4{
 }
 /*Calender ends*/
 
-#hero {
+/*donation*/
+
+#hero-don {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/giving.jpg) top center;
   background-size: cover;
   position: relative;
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #hero-don {
     background-attachment: fixed;
   }
 }
 
-#hero:before {
+#hero-don:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -432,7 +434,7 @@ h4{
   right: 0;
 }
 
-#hero .hero-container {
+#hero-don .hero-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -445,7 +447,7 @@ h4{
   text-align: center;
 }
 
-#hero h1 {
+#hero-don h1 {
   margin: 30px 0 10px 0;
   font-size: 64px;
   font-weight: 700;
@@ -455,27 +457,27 @@ h4{
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #hero-don h1 {
     font-size: 28px;
     line-height: 36px;
   }
 }
 
-#hero h2 {
+#hero-don h2 {
   color: #eee;
   margin-bottom: 50px;
   font-size: 24px;
 }
 
 @media (max-width: 768px) {
-  #hero h2 {
+  #hero-don h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 }
 
-#hero .btn-get-started {
+#hero-don .btn-get-started {
   font-family: "Exo", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -490,20 +492,279 @@ h4{
   color: #fff;
 }
 
-#hero .btn-get-started:hover {
+#hero-don .btn-get-started:hover {
   background: #0d3259;
   border: 2px solid #deecfb;
 }
+/*donation ends*/
 
-#myVideo {
-  background: top center;
+/*join village*/
+
+#hero-join {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/join.jpg) top center;
   background-size: cover;
   position: relative;
-  min-width: 100%;
-  height: 100vh;
 }
 
+@media (min-width: 1024px) {
+  #hero-join {
+    background-attachment: fixed;
+  }
+}
 
+#hero-join:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero-join .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#hero-join h1 {
+  margin: 30px 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #hero-join h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#hero-join h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  #hero-join h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+#hero-join .btn-get-started {
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero-join .btn-get-started:hover {
+  background: #0d3259;
+  border: 2px solid #deecfb;
+}
+/*join village ends*/
+
+/*Karen History Exhibit*/
+#hero-his {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/flagsteeple.jpg) top center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  #hero-his {
+    background-attachment: fixed;
+  }
+}
+
+#hero-his:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero-his .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#hero-his h1 {
+  margin: 30px 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #hero-his h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#hero-his h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  #hero-his h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+#hero-his .btn-get-started {
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero-his .btn-get-started:hover {
+  background: #0d3259;
+  border: 2px solid #deecfb;
+}
+/*Karen History Exhibit ends*/
+
+/*Merch*/
+#hero-merch {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/laundry.jpg) top center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  #hero-merch {
+    background-attachment: fixed;
+  }
+}
+
+#hero-merch:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero-merch .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#hero-merch h1 {
+  margin: 30px 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #hero-merch h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#hero-merch h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  #hero-merch h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+#hero-merch .btn-get-started {
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero-merch .btn-get-started:hover {
+  background: #0d3259;
+  border: 2px solid #deecfb;
+}
+/*Merch ends*/
 
 /*--------------------------------------------------------------
 # Navigation Menu
