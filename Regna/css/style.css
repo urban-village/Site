@@ -800,8 +800,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #0d3259;
-  border: 2px solid #0d3259;
+  background: #aa1e1e;
+  border: 2px solid #aa1e1e;
 }
 
 /* Portfolio Section
@@ -817,7 +817,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .container-carousel {
   margin: 0 auto;
   width: 400px;
-  height: 600px;
+  height: 400px;
   position: relative;
   perspective: 1000px;
 }
@@ -899,6 +899,52 @@ body.mobile-nav-active #mobile-nav-toggle {
 .prev { left: 5em;}
 
 
+/*Partnerships
+-------------------------------*/
+#partnerships {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/giving.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#partnerships .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#partnerships .cta-text {
+  color: #fff;
+}
+
+@media (min-width: 769px) {
+  #partnerships .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+#partnerships .cta-btn {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#partnerships .cta-btn:hover {
+  background: #aa1e1e;
+  border: 2px solid #aa1e1e;
+}
+
 /* Team Section
 --------------------------------*/
 #team {
@@ -915,8 +961,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  width:100%;
-  height: auto;
+  width: 275px;
+  height: 275px;
 }
 
 #team .member .pic img {
@@ -926,7 +972,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
-  font-size: 18px;
+  font-color:#ffffff;
+  font-size: 25px;
 }
 
 #team .member span {
@@ -935,22 +982,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
 }
 
-#team .member .social {
-  margin-top: 15px;
-}
-
-#team .member .social a {
-  color: #b3b3b3;
-}
-
-#team .member .social a:hover {
-  color: #0d3259;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
 
 /* Contact Section
 --------------------------------*/
