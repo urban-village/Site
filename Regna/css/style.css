@@ -855,6 +855,95 @@ h4{
 }
 /*Community Partnership ends ends*/
 
+/*Subscribe*/
+
+#hero-sub {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/bluffs.jpg) top center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  #hero-sub {
+    background-attachment: fixed;
+  }
+}
+
+#hero-sub:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero-sub .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#hero-sub h1 {
+  margin: 30px 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #hero-sub h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#hero-sub h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  #hero-sub h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+#hero-sub .btn-get-started {
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero-sub .btn-get-started:hover {
+  background: #0d3259;
+  border: 2px solid #deecfb;
+}
+/*Subscribe ends*/
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
